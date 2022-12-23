@@ -21,7 +21,7 @@ body{
 }
 .image{
 
-    background-image: url(/Image/pexels-photo-10003543.jpeg);
+    background-image: url(../Image/pexels-photo-10003543.jpeg);
     height: 403px;
     width: 340px;
     background-size: cover;
@@ -129,7 +129,7 @@ button{
 }
 .signature{
 
-    background-image: url(/Image/Signaturepng.png);
+    background-image: url(../Image/Signaturepng.png);
     height: 155px;
     width: 320px;
     margin-top: 60px ;
@@ -181,7 +181,7 @@ button{
 }
 .co-cont4-d{
 
-    background-image: url(/Image/pexels-photo-8265680.jpeg);
+    background-image: url(../Image/pexels-photo-8265680.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -213,7 +213,7 @@ button{
 }
 .co-cont5-g{
 
-    background-image: url(/Image/44.jpeg);
+    background-image: url(../Image/44.jpeg);
     width: 340px;
     height: 370px;
     margin-top: 65px;
@@ -364,56 +364,56 @@ button{
 }
 .photo1{
 
-    background-image: url(/Image/photo1.jpeg);
+    background-image: url(../Image/photo1.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .photo2{
 
-    background-image: url(/Image/photo2.jpeg);
+    background-image: url(../Image/photo2.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .photo3{
 
-    background-image: url(/Image/photo3.jpeg);
+    background-image: url(../Image/photo3.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .photo4{
 
-    background-image: url(/Image/photo4.jpeg);
+    background-image: url(../Image/photo4.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .photo5{
 
-    background-image: url(/Image/photo5.jpeg);
+    background-image: url(../Image/photo5.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .photo6{
 
-    background-image: url(/Image/photo6.jpeg);
+    background-image: url(../Image/photo6.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .photo7{
 
-    background-image: url(/Image/photo7.jpeg);
+    background-image: url(../Image/photo7.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .photo8{
 
-    background-image: url(/Image/photo8.jpeg);
+    background-image: url(../Image/photo8.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
