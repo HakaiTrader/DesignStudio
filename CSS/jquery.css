@@ -1,0 +1,846 @@
+@media screen and (min-width: 570px){
+    /*******************/
+    /**** SECTION 1 ****/
+    /*******************/
+    .image{
+        width: 540px;
+        height: 403px;
+    }
+    .textOrange{
+        width: 419px;
+        height: 203px;
+    }
+    .chekPoint{
+
+        width: 400px;
+        height: 174px;
+        padding: 0;
+        font-size: 21px;
+        margin-top: 20px;
+    }
+
+    .text1 {
+        
+        width: 419px;
+        height: 207px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .readmore{
+        
+        justify-self: flex-start;
+    }
+    /*******************/
+    /**** SECTION 3 ****/
+    /*******************/
+    .title{
+
+        width: 540px;
+        height: 118px;
+        align-self: center;
+        font-size: 25.5px;
+        margin-bottom: 15px;
+    }
+    .co-cont3{
+        margin: 100px 0 0 0;
+    }
+    .paragraphe2{
+
+        width: 540px;
+        height: 127px;
+        margin-bottom: 30px;
+    }
+    .signature{
+        width: 320px;
+        margin: 35px 0 140px;
+    }
+    /*******************/
+    /**** SECTION 4 ****/
+    /*******************/
+    .co-cont4-g .title2{
+        
+        width: 520px;
+        height: 33px;
+    }
+    .paragraphe3{
+        width: 520px;
+        height: 143px;
+        text-align: center;
+    }
+    .co-cont4-d{
+
+        width: 540px;
+        height: 587px;
+    }
+    /*******************/
+    /**** SECTION 5 ****/
+    /*******************/
+    .co-cont5-g{
+
+        width: 540px;
+        height: 587px;
+    }
+    .co-cont5-d .title5{
+
+        width: 520px;
+        height: 66px;
+    }
+    .co-cont5-d .paragraphe5{
+
+        width: 520px;
+        height: 240px;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    /*******************/
+    /**** SECTION 6 ****/
+    /*******************/
+    .co-cont6{
+
+        margin-top: 70px;
+    }
+    .research,
+    .consulting,
+    .marketing,
+    .development,
+    .prototyping,
+    .support{
+
+    width: 540px;
+    height: 252px;
+    }
+    .pararesearch p,
+    .paradevelopment p,
+    .paraprototyping p,
+    .parasupport p,
+    .consulting p,
+    .marketing p{
+        width: 276px;
+        height: 76px;
+        font-size: 20px;
+    }
+    /*******************/
+    /**** SECTION 7 ****/
+    /*******************/
+    .photo1,
+    .photo2,
+    .photo3,
+    .photo4,
+    .photo5,
+    .photo6,
+    .photo7,
+    .photo8{
+
+    width: 540px;
+    height: 482px;
+    margin: 10px 5px 0 5px;
+    }
+    /*******************/
+    /**** SECTION 8 ****/
+    /*******************/
+    .titleCo-cont8{
+
+        width: 540px;
+        height: 151px;
+    } 
+    .titleCo-cont8 h3{
+
+        font-size: 43px;
+    }
+    .co-cont8 input[type=email]{
+
+        width: 530px;
+        height: 52px;
+    }
+    input[type=submit]{
+
+        width: 530px;
+        height: 49px;
+    }
+    .text{
+
+        text-align: center;
+        width: 363px;
+        font-size: 16.5px;
+    }
+    /*******************/
+    /**** SECTION 9 ****/
+    /*******************/
+    .co-cont9-g{
+
+        width: 520px;
+        height: 139.9px;
+        font-size: 35px;
+    }
+    .co-cont9-d{
+
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 540px;
+        height: 246px;
+    }
+    /*******************/
+    /**** SECTION 10 ****/
+    /*******************/
+    .profil1,
+    .profil2,
+    .profil3{
+
+        display: flex;
+        flex-direction: column;
+        width: 560px;
+        height: 746px;
+        align-items: center;
+    }    
+
+    .profil1-picture,
+    .profil2-picture,
+    .profil3-picture{
+        width: 520px;
+        height: 567px;
+        align-self: center;
+    }
+    /*******************/
+    /**** SECTION 11 ****/
+    /*******************/
+    .contact1{
+
+        width: 540px;
+        height: 365px;
+    }
+    .title-contact1{
+
+        font-size: 28px;
+    }
+    .titlecontactus{
+
+        font-size: 27px;
+        color: #DDC385;
+        margin-bottom: 20px;
+    }
+    .co-cont11{
+
+        justify-content: flex-start;
+        margin-left: 10px;
+    }   
+}
+@media screen and (min-width: 760px){
+
+    /*******************/
+    /**** SECTION 1 ****/
+    /*******************/
+    .co-cont .image{
+        width: 720px;
+        height: 403px;
+    }
+    .textOrange{
+
+        width: 216px;
+        height: 351px;
+        transform: translate(-20px, 0);
+    }
+    .chekPoint{
+
+        width: 280px;
+        height: 246px;
+        transform: translate(5%, 15%);
+    }
+    .chekPoint li{
+
+        margin-bottom: 20px;
+    }
+    .text1{
+
+        width: 184px;
+        height: 179px;
+        transform: translate(7%, 25%);
+    }
+    /*******************/
+    /**** SECTION 3 ****/
+    /*******************/
+    .co-cont3{
+
+        margin-top: 50px;
+    }
+    .co-cont3 .paragraphe2{
+
+        width: 718px;
+        height: 102px;
+    }
+    .co-cont3 .title{
+
+        width: 720px;
+        height: 80px;
+    }
+    .signature{
+
+        margin-top: 5px;
+    }
+    /*******************/
+    /**** SECTION 4 ****/
+    /*******************/
+    .co-cont4-g{
+        width: 360px;
+        height: 551px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        transform: translate(0px, 20px);
+    }
+    .co-cont4-g .title2{
+
+        width: 300px;
+        height: 60px;
+        margin-bottom: 15px;
+        font-size: 24.6px;
+    }
+    .co-cont4-g .paragraphe3{
+
+        width: 300px;
+        height: 255px;
+        font-size: 18.5px;
+    }
+    .co-cont4-d{
+        width: 360px;
+        height: 551px;
+    }
+    .co-cont4-g .readMore{
+
+        margin-top: 50px;
+    }
+    /*******************/
+    /**** SECTION 5 ****/
+    /*******************/
+    .co-cont5-g,.co-cont5-d{
+
+        width: 360px;
+        height: 661px;
+    }
+    .paragraphe5{
+
+        width: 360px;
+        height: 332px;
+        flex-direction: row;
+    }
+    .paragraphe5 p{
+        margin-top: 50px;
+        padding: 0 10px;
+    }
+    .co-cont5-d{
+
+        flex-direction: row;
+        padding: 15px;
+    }
+    .co-cont5-d .title5{
+
+        width: 300px;
+        height: 72px;
+        font-size: 21.4px;
+        margin-top: 15px;
+    }
+    .co-cont5-d .readMore{
+
+        transform: translate(0, 75px);
+    }
+    /*******************/
+    /**** SECTION 6 ****/
+    /*******************/
+    .research,
+    .consulting,
+    .marketing,
+    .development,
+    .prototyping,
+    .support{
+    
+        width: 360px;
+        height: 267px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*******************/
+    /**** SECTION 7 ****/
+    /*******************/
+    .photo1,
+    .photo2,
+    .photo3,
+    .photo4,
+    .photo5,
+    .photo6,
+    .photo7,
+    .photo8{
+
+        width: 355px;
+        height: 321px;
+    }
+    /*******************/
+    /**** SECTION 8 ****/
+    /*******************/
+    .titleCo-cont8{
+        width: 720px;
+        height: 100px;
+        font-size: 25px;
+    }
+    .co-cont8 input[type=email]{
+
+        width: 369px;
+        height: 52px;
+    }
+    input[type=submit]{
+
+        width: 140px;
+        height: 49px;
+    }
+    .co-cont8{
+
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    /*******************/
+    /**** SECTION 9 ****/
+    /*******************/
+    .co-cont9-g{
+
+        width: 384px;
+        height: 348px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .co-cont9-d{
+
+        width: 336px;
+        height: 348px;
+        padding-left: 20px;
+        margin-top: 15px;
+    }
+    /*******************/
+    /**** SECTION 10 ****/
+    /*******************/
+    .profil1,
+    .profil2,
+    .profil3{
+
+        width: 360px;
+        height: 506px;
+    }
+    .profil1-picture,
+    .profil2-picture,
+    .profil3-picture{
+    
+        width: 300px;
+        height: 327px;
+        text-align: center;
+    }
+    .profil3{
+
+        position: relative;
+        left: 20px;
+    }
+    /*******************/
+    /**** SECTION 11 ****/
+    /*******************/
+    .contact1{
+
+        width: 240px;
+        height: 559px;
+    }
+    .contact2{
+
+        width: 204px;
+        height: 559px;
+        padding: 30px;
+        padding-top: 0px;
+        margin: 0;
+    }
+    .contactus{
+
+        width: 256px;
+        height: 559px;
+    }
+    .inputsubmit input[type=submit]{
+        width: 216px;
+        height: 45px;
+    }
+    .title-contact1{
+
+        width: 209px;
+        height: 43px;
+        font-size: 25.5px;
+    }
+}
+@media screen and (min-width: 992px){
+    /*******************/
+    /**** SECTION 1 ****/
+    /*******************/
+    .chekPoint{
+
+        width: 391px;
+        height: 414px;
+        transform: translate(5%, 15%);
+    }
+    .text1{
+
+        width: 246px;
+        height: 153px;
+        transform: translate(7%, 40%);
+        font-size: 18.5px;
+    }
+}
+@media screen and (min-width: 992px){
+
+    .co-cont .image{
+        width: 1140px;
+        height: 403px;
+    }
+    .textOrange{
+
+        width: 282px;
+        height: 414px;
+        transform: translate(-45px, -13%);
+        padding: 0 30px;
+    }
+    .textOrange h1{
+        font-size: 37.5px;
+        margin-bottom: 30px;
+    }
+    .chekPoint li{
+
+        margin-bottom:5px ;
+        position: relative;
+        top: 90px;
+    }
+    .chekPoint{
+
+        transform: translate(0,-40px);
+        font-size: 1.35rem;
+        padding: 30px;
+
+    }
+    /*******************/
+    /**** SECTION 4 ****/
+    /*******************/
+    .co-cont4{
+
+
+    }
+    .co-cont4-g{
+
+        width: 470px;
+        height: 510px;
+        flex-direction: row;
+        align-items: center;
+    }
+    .co-cont4-d{
+
+        width: 470px;
+        height: 510px;
+    }
+    .paragraphe3{
+
+        height: 204px;
+        width: 410px !important;
+        margin-top: 40px;
+    }
+    .paragraphe3 .readMore button{
+
+        width: 167px;
+        margin: 0;
+    }
+    /*******************/
+    /**** SECTION 5 ****/
+    /*******************/
+
+    .co-cont5-g,
+    .co-cont5-d{
+        width: 470px;
+        height: 584px;
+    }
+    .co-cont5-d{
+
+        padding: 30px;
+    }
+    .title5{
+
+    width: 410px !important;
+    height: 100px;
+    }
+    .paragraphe5{
+
+        line-height: 1.4;
+    }
+    /*******************/
+    /**** SECTION 6 ****/
+    /*******************/
+    .research,
+    .consulting,
+    .marketing,
+    .development,
+    .prototyping,
+    .support{
+
+        width: 313px;
+        height: 252px;
+    }
+    .prototyping{
+        position: relative;
+    }
+    .support{
+        position: absolute;
+        transform: translate(100%, 100%);
+    }
+    /*******************/
+    /**** SECTION 7 ****/
+    /*******************/
+    .photo1,
+    .photo2,
+    .photo3,
+    .photo4,
+    .photo5,
+    .photo6,
+    .photo7,
+    .photo8{
+
+        width: 228px;
+        height: 210px;
+    }
+    /*******************/
+    /**** SECTION 8 ****/
+    /*******************/
+    .co-cont8{
+
+        flex-direction: column;
+    }
+    .inputmail{
+
+        transform: translate(0%, 0);
+        width: 500px;
+        display: flex;
+        justify-content: center;
+    }
+    .inputmail input[type=submit]{
+
+        margin-top: 43px;
+    }
+    /*******************/
+    /**** SECTION 9 ****/
+    /*******************/
+
+    .co-cont9-g{
+        width: 385px;
+        height: 298px;
+    }
+    .co-cont9-d{
+
+        width: 540px;
+        height: 298px;
+        font-size: 20px;
+    }
+    /*******************/
+    /**** SECTION 10 ***/
+    /*******************/
+    .profil1,
+    .profil2,
+    .profil3{
+
+        width: 313px;
+        height: 439px;
+    }
+    .profil1-picture,
+    .profil2-picture,
+    .profil3-picture{
+
+        width: 233px;
+        height: 254px;
+    }
+    .co-cont10 .reseau i{
+
+        margin: 20px 10px;
+    }
+    /*******************/
+    /**** SECTION 11 ***/
+    /*******************/
+
+    .contact1{
+        width: 313px;
+        height: 494px;
+    }
+    .contact2{
+
+        width: 266px;
+        height: 494px;
+    }
+    .contactus{
+
+        width: 360px;
+        height: 494px;
+        transform: translate(0, 25px);
+    }
+    .inputsubmit input[type=submit]{
+
+        width: 345px;
+        height: 50px;
+        border-radius: 15px;
+    }
+}
+@media screen and (min-width: 1199px) {
+    /*******************/
+    /**** SECTION 1 ****/
+    /*******************/
+    .textOrange{
+
+        width: 315px;
+        height: 463px;
+    }
+    .chekPoint{
+
+        width: 438px;
+        height: 463px;
+        transform: translate(-20px, 50px);
+    }
+    .text1{
+
+        width: 298px;
+        height: 463px;
+    }
+    .text1 .readMore{
+
+        transform: translate(0, -110px);
+
+    }
+    /*******************/
+    /**** SECTION 4 ****/
+    /*******************/
+    .co-cont4-g, .co-cont4-d{
+        width: 570px;
+        height: 619px;
+    }
+    .co-cont4-g h2{
+
+        width: 510px;
+        height: 33px;
+        transform: translate(-100px, 50px);
+        align-self: center;
+    }
+    .paragraphe3{
+
+        width: 510px !important;
+        height: 153px;
+    }
+    .co-cont4-g .readMore{
+
+        margin: 0;
+        transform: translate(0, -110px);
+    }
+    /*******************/
+    /**** SECTION 5 ****/
+    /*******************/
+    .co-cont5-g,
+    .co-cont5-d{
+
+        width: 570px;
+        height: 619px;
+    }
+    .co-cont5-d{
+        transform: translate(0, 30px);
+    }
+    .co-cont5-d .title5{
+
+        width: 510px!important;
+        height: 66px;
+    }
+    .co-cont5-d .readMore{
+
+        transform: translate(0, 20px);
+    }
+    /*******************/
+    /**** SECTION 6 ****/
+    /*******************/
+    .research,
+    .consulting,
+    .marketing,
+    .development,
+    .prototyping,
+    .support{
+
+        width: 379px;
+        height: 282px;
+    }
+    /*******************/
+    /**** SECTION 7 ****/
+    /*******************/
+
+    .photo1,
+    .photo2,
+    .photo3,
+    .photo4,
+    .photo5,
+    .photo6,
+    .photo7,
+    .photo8{
+
+        width: 278.25px;
+        height: 255.5px;
+    }
+    /*******************/
+    /**** SECTION 8 ****/
+    /*******************/
+    .compteur{
+        
+        width: 121px;
+        height: 86px;
+        margin: 30px 0;
+    }
+    .titleCo-cont8{
+
+        width: 759px;
+        height: 100px;
+    }
+    /*******************/
+    /**** SECTION 9 ****/
+    /*******************/
+    .co-cont9{
+
+        margin-top: 35px;
+    }
+    /*******************/
+    /**** SECTION 10 ***/
+    /*******************/
+    .profil1,
+    .profil2,
+    .profil3{
+
+        width: 379px;
+        height: 533px;
+    }
+    .profil1-picture,
+    .profil2-picture,
+    .profil3-picture{
+
+        width: 300px;
+        height: 327px;
+    }
+    /*******************/
+    /**** SECTION 11 ***/
+    /*******************/
+
+    .contact1{
+        width: 380px;
+        height: 460px;
+    }
+    .contact2{
+        width: 323px;
+        height: 460px;
+    }
+    .contact2 p{
+
+        font-size: 18px;
+    }
+    .contact3{
+
+        width: 437px;
+        height: 460px;
+    }
+}
