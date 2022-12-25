@@ -1,25 +1,31 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
 
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
+
 }
-.container{
+
+.container {
 
     width: 100%;
 }
-.co-cont{
+
+.co-cont {
 
     display: flex;
     justify-content: center;
     background-color: white;
     width: 100%;
 }
-.image{
+
+.image {
 
     background-image: url(../Image/pexels-photo-10003543.jpeg);
     height: 403px;
@@ -28,18 +34,21 @@ body{
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
-.container2{
+
+.container2 {
 
     width: 100%;
 
 }
-.co-cont2{
+
+.co-cont2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
 }
-.textOrange{
+
+.textOrange {
     width: 313px;
     height: 265px;
     background-color: #ddc384;
@@ -52,18 +61,21 @@ body{
     padding: 0 10px;
     color: white;
 }
-.textOrange h1{
+
+.textOrange h1 {
 
     font-size: 30px;
     margin: 0 0 50px 0;
     font-weight: bold;
 }
-.textOrange p{
+
+.textOrange p {
 
     font-size: 18.5px;
     line-height: 1.3;
 }
-.chekPoint{
+
+.chekPoint {
 
     width: 313px;
     height: 270px;
@@ -71,11 +83,13 @@ body{
     line-height: 2;
     font-size: 1.275rem;
 }
-.chekPoint ul{
+
+.chekPoint ul {
     list-style: none;
     margin-top: -50px;
 }
-.text1{
+
+.text1 {
 
     width: 293px;
     height: 127px;
@@ -83,16 +97,18 @@ body{
     font-size: 18.2px;
     margin-top: -35px;
 }
-.readMore{
+
+.readMore {
     display: flex;
     justify-content: center;
 }
-button{
+
+button {
 
     width: 165px;
     height: 49px;
     margin-top: 25px;
-    background-color:#ddc384;
+    background-color: #ddc384;
     border: none;
     border-radius: 6px;
     letter-spacing: 3px;
@@ -100,11 +116,13 @@ button{
     padding-top: 4px;
     cursor: pointer;
 }
-.container3{
+
+.container3 {
 
     width: 100%;
 }
-.co-cont3{
+
+.co-cont3 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -114,60 +132,69 @@ button{
     font-size: 20px;
     text-align: center;
 }
-.title{
+
+.title {
 
     width: 340px;
     height: 132px;
     margin-bottom: 7px;
 }
-.paragraphe2{
+
+.paragraphe2 {
 
     line-height: 1.3;
     margin-top: 20px;
     width: 340px;
     height: 204px;
 }
-.signature{
+
+.signature {
 
     background-image: url(../Image/Signaturepng.png);
     height: 155px;
     width: 320px;
-    margin-top: 60px ;
+    margin-top: 60px;
     transition: transform 0.6s ease-in-out;
     transform: translateX(+100%);
     opacity: 0;
 }
+
 .signature.active {
     transform: translateX(0%);
     opacity: 1;
 }
-.container4{
+
+.container4 {
 
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.co-cont4{
+
+.co-cont4 {
 
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
 }
-.co-cont4-g{
+
+.co-cont4-g {
 
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.title2{
+
+.title2 {
 
     text-align: center;
     font-size: 22px;
     width: 320px;
     height: 66px;
 }
-.paragraphe3{
+
+.paragraphe3 {
 
     height: 255px;
     width: 320px;
@@ -175,11 +202,13 @@ button{
     font-size: 19px;
     line-height: 1.5;
 }
-.co-cont4-g .readMore{
+
+.co-cont4-g .readMore {
 
     margin-top: 60px;
 }
-.co-cont4-d{
+
+.co-cont4-d {
 
     background-image: url(../Image/pexels-photo-8265680.jpeg);
     background-size: cover;
@@ -192,18 +221,21 @@ button{
     opacity: 0;
 
 }
+
 .co-cont4-d.active {
 
     transform: translateX(0%);
     opacity: 1;
 }
-.container5{
+
+.container5 {
 
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.co-cont5{
+
+.co-cont5 {
 
     display: flex;
     flex-wrap: wrap;
@@ -211,7 +243,8 @@ button{
     justify-content: center;
     align-items: center;
 }
-.co-cont5-g{
+
+.co-cont5-g {
 
     background-image: url(../Image/44.jpeg);
     width: 340px;
@@ -222,18 +255,21 @@ button{
     opacity: 0;
 
 }
-.co-cont5-g.active{
+
+.co-cont5-g.active {
     transform: translateX(0%);
     opacity: 1;
 }
-.co-cont5-d{
+
+.co-cont5-d {
 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
 }
-.co-cont5-d .title5{
+
+.co-cont5-d .title5 {
 
     text-align: center;
     font-size: 22px;
@@ -243,7 +279,8 @@ button{
     padding: 30px 0px;
 
 }
-.paragraphe5{
+
+.paragraphe5 {
 
     display: flex;
     flex-direction: column;
@@ -253,25 +290,28 @@ button{
     margin-top: 80px;
     font-size: 20px;
 }
-.container6{
+
+.container6 {
 
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.co-cont6{
+
+.co-cont6 {
 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .research,
 .consulting,
 .marketing,
 .development,
 .prototyping,
-.support{
+.support {
 
     width: 340px;
     height: 252px;
@@ -279,22 +319,24 @@ button{
     flex-direction: column;
     align-items: center;
 }
+
 .marketing,
 .consulting,
-.support{
+.support {
 
     background-color: #fcf9f1;
 }
+
 .logoresearch,
 .logodevelopment,
 .logoprototyping,
 .logospport,
 .logosupport,
 .logomarketing,
-.logoconsulting{
-    
+.logoconsulting {
+
     background-color: #ddc384;
-    width: 68px ;
+    width: 68px;
     height: 68px;
     border-radius: 50%;
     display: flex;
@@ -302,53 +344,58 @@ button{
     align-items: center;
     margin-bottom: 18px;
 }
-.logoresearch{
+
+.logoresearch {
 
     margin-bottom: 0px;
 }
+
 .logoresearch i,
 .logodevelopment i,
 .logoprototyping i,
 .logosupport i,
 .logomarketing i,
-.logoconsulting i
-{
+.logoconsulting i {
 
     font-size: 43px;
     padding-top: 4px;
     color: white;
 }
-.titleresearch{
+
+.titleresearch {
 
     height: 24px;
     height: 20px;
     margin: 22px 115px 0px;
 }
+
 .pararesearch p,
 .paradevelopment p,
 .paraprototyping p,
 .parasupport p,
 .consulting p,
-.marketing p
-{
+.marketing p {
 
     font-size: 19.5px;
     margin: 32px 22px 0px;
     text-align: center;
 }
-.container7{
+
+.container7 {
 
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.co-cont7{
+
+.co-cont7 {
 
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .photo1,
 .photo2,
 .photo3,
@@ -356,75 +403,85 @@ button{
 .photo5,
 .photo6,
 .photo7,
-.photo8{
+.photo8 {
 
     width: 340px;
     height: 302px;
     margin: 10px 5px 0 5px;
 }
-.photo1{
+
+.photo1 {
 
     background-image: url(../Image/photo1.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.photo2{
+
+.photo2 {
 
     background-image: url(../Image/photo2.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.photo3{
+
+.photo3 {
 
     background-image: url(../Image/photo3.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.photo4{
+
+.photo4 {
 
     background-image: url(../Image/photo4.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.photo5{
+
+.photo5 {
 
     background-image: url(../Image/photo5.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.photo6{
+
+.photo6 {
 
     background-image: url(../Image/photo6.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.photo7{
+
+.photo7 {
 
     background-image: url(../Image/photo7.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.photo8{
+
+.photo8 {
 
     background-image: url(../Image/photo8.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.extra{
+
+.extra {
 
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.text-cont7{
+
+.text-cont7 {
 
     text-align: center;
     font-size: 18.4px;
@@ -432,42 +489,48 @@ button{
     width: 350px;
     height: 51px;
 }
-.reseau i{
+
+.reseau i {
 
     font-size: 25px;
     margin: 30px 10px;
 }
-.container8{
+
+.container8 {
 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     background-color: #fcf9f1;
 }
-.co-cont8{
+
+.co-cont8 {
 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
     background-color: #fcf9f1;
 }
-.compteur{
+
+.compteur {
     text-align: center;
     font-size: 73px;
     font-weight: bold;
     color: #DDC384;
     margin: 70px 0px 35px 0px;
 }
-.titleCo-cont8{
+
+.titleCo-cont8 {
 
     width: 340px;
     height: 126px;
     text-align: center;
     font-size: 30px;
 }
-.co-cont8 input[type=email]{
+
+.co-cont8 input[type=email] {
 
     display: flex;
     border: none;
@@ -479,27 +542,30 @@ button{
     margin: 40px auto 0 auto;
     padding-left: 20px;
 }
-.co-cont8 input[type=email]:focus{ 
+
+.co-cont8 input[type=email]:focus {
     outline: none;
     box-shadow: -0px -0px 10px 1px grey;
-}  
-input[type=submit]{
+}
+
+input[type=submit] {
 
     width: 340px;
     height: 49px;
     margin-top: 25px;
-    background-color:#ddc384;
+    background-color: #ddc384;
     border: none;
     border-radius: 6px;
     letter-spacing: 3px;
     margin-bottom: 30px;
     padding-top: 4px;
-    cursor: pointer;  
+    cursor: pointer;
     color: white;
     font-size: 16px;
     font-weight: bold;
 }
-.text{
+
+.text {
 
     font-size: 17px;
     width: 340px;
@@ -508,20 +574,23 @@ input[type=submit]{
     margin-top: 15px;
     margin-bottom: 20px;
     align-self: center;
-} 
-.container9{
+}
+
+.container9 {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.co-cont9{
+
+.co-cont9 {
 
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.co-cont9-g{
+
+.co-cont9-g {
 
     width: 320px;
     height: 126px;
@@ -529,7 +598,8 @@ input[type=submit]{
     font-size: 28px;
     text-align: right;
 }
-.co-cont9-d{
+
+.co-cont9-d {
 
     width: 340px;
     height: 320px;
@@ -537,50 +607,58 @@ input[type=submit]{
     font-size: 19.5px;
     line-height: 1.35;
 }
-.co-cont9-d .readMore button{
+
+.co-cont9-d .readMore button {
     margin-top: 60px;
 }
-.container10{
+
+.container10 {
 
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 55px;
 }
-.co-cont10{
+
+.co-cont10 {
 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .profil1,
 .profil2,
-.profil3{
+.profil3 {
 
     width: 340px;
     height: 528px;
     text-align: center;
 }
+
 .profil1 .reseau i,
 .profil2 .reseau i,
-.profil3 .reseau i{
+.profil3 .reseau i {
 
     font-size: 18px;
 }
+
 .profil1 h4,
 .profil2 h4,
-.profil3 h4{
+.profil3 h4 {
 
     font-size: 20px;
-    margin: 23px 0px 15px 0px ;
+    margin: 23px 0px 15px 0px;
 }
+
 .profil1 h3,
 .profil2 h3,
-.profil3 h3{
+.profil3 h3 {
 
     color: #DDC385;
 }
-.profil1-picture{
+
+.profil1-picture {
 
     background-image: url(../Image/profil1.jpg);
     background-size: cover;
@@ -589,7 +667,8 @@ input[type=submit]{
     width: 320px;
     height: 349px;
 }
-.profil2-picture{
+
+.profil2-picture {
 
     background-image: url(../Image/profil2.jpg);
     background-size: cover;
@@ -598,7 +677,8 @@ input[type=submit]{
     width: 320px;
     height: 349px;
 }
-.profil3-picture{
+
+.profil3-picture {
 
     background-image: url(../Image/profil3.jpg);
     background-size: cover;
@@ -607,15 +687,17 @@ input[type=submit]{
     width: 320px;
     height: 349px;
 }
-.container11{
+
+.container11 {
 
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px; 
-    
+    margin-bottom: 50px;
+
 }
-.co-cont11{
+
+.co-cont11 {
 
     width: 100%;
     display: flex;
@@ -623,7 +705,8 @@ input[type=submit]{
     flex-wrap: wrap;
 
 }
-.contact1{
+
+.contact1 {
 
     display: flex;
     flex-direction: column;
@@ -631,32 +714,37 @@ input[type=submit]{
     height: 415px;
     color: white;
     background-color: #ddc384;
-    padding: 10px 15px 20px 10px;  
+    padding: 10px 15px 20px 10px;
 }
-.title-contact1{
+
+.title-contact1 {
     font-size: 18px;
 }
-.paragraphe-contact1{
+
+.paragraphe-contact1 {
 
     font-size: 20px;
     font-weight: bold;
     line-height: 1.55;
 }
-.paragraphe2-contact1{
+
+.paragraphe2-contact1 {
 
     font-size: 19px;
     line-height: 1.6;
     transform: translate(0, -20px);
 }
-.contact1 >*{
+
+.contact1>* {
 
     margin: 20px 0;
 }
+
 .facebook,
 .instagram,
 .linkedIn,
 .vk,
-.youtube{
+.youtube {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -667,57 +755,67 @@ input[type=submit]{
     width: 32px;
     height: 32px;
 }
+
 .facebook i,
 .instagram i,
 .linkedIn i,
 .vk i,
-.youtube i{
+.youtube i {
 
     font-size: 18px;
 }
-.reseau-contact1{
+
+.reseau-contact1 {
 
     display: flex;
     column-gap: 10px;
     transform: translate(-0, -25px);
     transform: translate(0, -40px);
 }
-.contact2{
-    
+
+.contact2 {
+
     width: 340px;
     height: 409px;
     margin-top: 15px;
 }
+
 .callus h2,
 .location h2,
-.services h2{
+.services h2 {
 
     color: #DDC385;
     margin: 20px 0;
 }
+
 .callus p,
 .location p,
-.services p{
+.services p {
     font-size: 17.5px;
 }
-.services ul{
+
+.services ul {
 
     list-style: none;
 }
-.services ul li{
+
+.services ul li {
     font-size: 18.5px;
 }
-.submit{
+
+.submit {
 
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.inputsubmit input[type=submit]{
+
+.inputsubmit input[type=submit] {
     color: black;
 }
+
 .contactus input[type=email],
-.contactus input[type=text]{
+.contactus input[type=text] {
 
     border: none;
     width: 340px;
@@ -730,10 +828,11 @@ input[type=submit]{
     font-size: 17.5px;
     background-color: #fcf9f1;
 }
-.contactus textarea{
+
+.contactus textarea {
 
     min-width: 340px;
-    min-height: 122px ;
+    min-height: 122px;
     max-height: 200px;
     font-size: 18px;
     border: none;
