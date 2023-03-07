@@ -657,6 +657,12 @@ input[type=submit] {
 
     color: #DDC385;
 }
+fa-brands fa-facebook-f
+fa-brands fa-instagram
+fa-brands fa-linkedin-in{
+
+   cursor:pointer;
+}
 
 .profil1-picture {
 
@@ -771,6 +777,11 @@ input[type=submit] {
     column-gap: 10px;
     transform: translate(-0, -25px);
     transform: translate(0, -40px);
+}
+
+.reseau i {
+    
+    cursor: pointer;
 }
 
 .contact2 {
